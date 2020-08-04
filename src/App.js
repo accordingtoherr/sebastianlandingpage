@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo.jpg';
 import './App.css';
 
 function App() {
@@ -7,20 +7,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Coming soon, Lil' Sebastian Pic of the Day</h1>
+        <p>Lil' Sebastian of the Day is not affiliated, associated, authorized, endorsed by, or in any way officially connected with NBC 
+          Universal or any of its subsidiaries or its affiliates. The official NBC website can be found at https://nbc.com </p>
+       
+        
       </header>
     </div>
   );
 }
+
 
 export default App;
