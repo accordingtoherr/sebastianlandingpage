@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.jpg';
 import './App.css';
+import '@ionic/react/css/core.css';
+import { IonButton, IonDatetime } from '@ionic/react';
 
 function App() {
   return (
